@@ -15,14 +15,14 @@ INSTALL_REQUIRES = [
     "Pillow",
     "matplotlib",
     "scikit-image>=0.14.2",
-    "opencv-python-headless",
+    "opencv-python",
     "imageio<=2.6.1; python_version<'3.5'",
     "imageio; python_version>='3.5'",
     "Shapely"
 ]
 
 ALT_INSTALL_REQUIRES = {
-    "opencv-python-headless": ["opencv-python", "opencv-contrib-python", "opencv-contrib-python-headless"],
+    "opencv-python": ["opencv-python-headless", "opencv-contrib-python", "opencv-contrib-python-headless"],
 }
 
 
